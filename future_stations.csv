@@ -1,68 +1,68 @@
 station_code,station_name,lat,lon,source,comment
-NE18 Punggol Coast,1.41492733388605,103.910166388177,onemap,nel_pe
-PW2 Teck Lee,1.4127708937463,103.906577622768,onemap,
-DT4 Hume,1.35433845,103.76921708359546,openstreetmap,
-TE30 Bedok South,1.31668400658419,103.94931120983,onemap,tel_5
-TE31 Sungei Bedok,1.32040148729112,103.957183823478,onemap,tel_5
-DT36 Xilin,1.32890694938858,103.964902569595,onemap,dtl_3e
-DT37 Sungei Bedok,1.32040148729112,103.957183823478,onemap,dtl_3e
-CC30 Keppel,1.26977220124441,103.830031459524,onemap,ccl_6
-CC31 Cantonment,1.27287214563203,103.837062313764,onemap,ccl_6
-CC32 Prince Edward Road,1.27315693636085,103.847097123745,onemap,ccl_6
-JS1 Choa Chu Kang,1.38535,103.74404,manual,jrl_1
-JS2 Choa Chu Kang West,1.379215,103.7399997,openstreetmap,jrl_1
-JS3 Tengah,1.3662254,103.7300925,openstreetmap,jrl_1
-JS4 Hong Kah,1.35812200829127,103.726153007988,onemap,jrl_1
-JS5 Corporation,1.3529781,103.7138109,openstreetmap,jrl_1
-JS6 Jurong West,1.3491904,103.7082891,openstreetmap,jrl_1
-JS7 Bahar Junction,1.3458098,103.7023562,openstreetmap,jrl_1
-JS8 Boon Lay,1.3385504,103.7058124,openstreetmap,jrl_1
-JW1 Gek Poh,1.3483266,103.6980778,openstreetmap,jrl_1
-JW2 Tawas,1.3506588499999999,103.69188928314975,openstreetmap,jrl_1
-TE22A Founders' Memorial,1.29083255,103.86911498010159,openstreetmap,
-JE0 Tengah,1.3662254,103.7300925,openstreetmap,jrl_2
-JE1 Tengah Plantation,1.3573609,103.733406,openstreetmap,jrl_2
-JE2 Tengah Park,1.3522936,103.7368054,openstreetmap,jrl_2
-JE3 Bukit Batok West,1.3455305,103.7397329,openstreetmap,jrl_2
-JE4 Toh Guan,1.3400465,103.7426012,openstreetmap,jrl_2
-JE5 Jurong East,1.3329005,103.7419367,openstreetmap,jrl_2
-JE6 Jurong Town Hall,1.3264148,103.7452272,openstreetmap,jrl_2
-JE7 Pandan Reservoir,1.320439,103.7448028,openstreetmap,jrl_2
-JS9 Enterprise,1.3328021,103.7085422,openstreetmap,jrl_3
-JS10 Tukang,1.3253215,103.7092754,openstreetmap,jrl_3
-JS11 Jurong Hill,1.318581,103.7102098,openstreetmap,jrl_3
-JS12 Jurong Pier,1.313022,103.7104354,openstreetmap,jrl_3
-JW3 Nanyang Gateway,1.3537812,103.6866773,openstreetmap,jrl_3
-JW4 Nanyang Crescent,1.3485428,103.6811253,openstreetmap,jrl_3
-JW5 Peng Kang Hill,1.3338446,103.6668506,openstreetmap,jrl_3
-CR2 Aviation Park,1.3702162,104.00351666333239,openstreetmap,crl_1
-CR3 Loyang,1.37153825,103.9723697170992,openstreetmap,crl_1
-CR4 Pasir Ris East,1.36708265,103.96049178712413,openstreetmap,crl_1
-CR5 Pasir Ris,1.37128735,103.94847083337655,openstreetmap,crl_1
-CR6 Tampines North,1.3690124,103.93809295626107,openstreetmap,crl_1
-CR7 Defu,1.36220375,103.8989547061777,openstreetmap,crl_1
-CR8 Hougang,1.3712507,103.8907866,openstreetmap,crl_1
-CR9 Serangoon North,1.3703489000000002,103.8747510760485,openstreetmap,crl_1
-CR10 Tavistock,1.37009165,103.86270735882033,openstreetmap,crl_1
-CR11 Ang Mo Kio,1.3692077999999999,103.85039863467846,openstreetmap,crl_1
-CR12 Teck Ghee,1.3656117,103.84360631056299,openstreetmap,crl_1
-CR13 Bright Hill,1.3630941,103.83691671999914,openstreetmap,crl_1
-CR14 Turf City,1.340922,103.79430247483285,openstreetmap,crl_2
-CR15 King Albert Park,1.33401975,103.7824767728621,openstreetmap,crl_2
-CR16 Maju,1.3276587499999999,103.77654689312335,openstreetmap,crl_2
-CR17 Clementi,1.3168251,103.76604037254504,openstreetmap,crl_2
-CR18 West Coast,1.3106229,103.75795795574777,openstreetmap,crl_2
-CR19 Jurong Lake District,1.3276184500000001,103.73881989658071,openstreetmap,crl_2
-CP1 Pasir Ris,1.37128735,103.94847083337655,openstreetmap,crl_pe
-CP2 Elias,1.3833508,103.9390071,openstreetmap,crl_pe
-CP3 Riviera,1.3959577,103.91586335378861,openstreetmap,crl_pe
-CP4 Punggol,1.4054248,103.90179674458341,openstreetmap,crl_pe
-NS3A Brickland,1.3684781,103.74962412165956,openstreetmap,
-CR1 Changi Airport Terminal 5,1.33473,103.99643,manual,cg_tel_c
-TE32 Changi Airport Terminal 5,1.33473,103.99643,manual,cg_tel_c
-CC18 Bukit Brown,1.33372888295973,103.830689549849,onemap,
-DT Sungei Kadut,1.4125423,103.7493903,openstreetmap,
-NS6 Sungei Kadut,1.4125423,103.7493903,openstreetmap,
-TE4A Tagore,1.3903418,103.8266128,manual,
-TE10 Mount Pleasant,1.32856455460666,103.83518858199,onemap,
-TE21 Marina South,1.27455475919137,103.863574321728,onemap,
+NE18,Punggol Coast,1.41492733388605,103.910166388177,onemap,nel_pe
+PW2,Teck Lee,1.4127708937463,103.906577622768,onemap,
+DT4,Hume,1.35433845,103.76921708359546,openstreetmap,
+TE30,Bedok South,1.31668400658419,103.94931120983,onemap,tel_5
+TE31,Sungei Bedok,1.32040148729112,103.957183823478,onemap,tel_5
+DT36,Xilin,1.32890694938858,103.964902569595,onemap,dtl_3e
+DT37,Sungei Bedok,1.32040148729112,103.957183823478,onemap,dtl_3e
+CC30,Keppel,1.26977220124441,103.830031459524,onemap,ccl_6
+CC31,Cantonment,1.27287214563203,103.837062313764,onemap,ccl_6
+CC32,Prince Edward Road,1.27315693636085,103.847097123745,onemap,ccl_6
+JS1,Choa Chu Kang,1.38535,103.74404,manual,jrl_1
+JS2,Choa Chu Kang West,1.379215,103.7399997,openstreetmap,jrl_1
+JS3,Tengah,1.3662254,103.7300925,openstreetmap,jrl_1
+JS4,Hong Kah,1.35812200829127,103.726153007988,onemap,jrl_1
+JS5,Corporation,1.3529781,103.7138109,openstreetmap,jrl_1
+JS6,Jurong West,1.3491904,103.7082891,openstreetmap,jrl_1
+JS7,Bahar Junction,1.3458098,103.7023562,openstreetmap,jrl_1
+JS8,Boon Lay,1.3385504,103.7058124,openstreetmap,jrl_1
+JW1,Gek Poh,1.3483266,103.6980778,openstreetmap,jrl_1
+JW2,Tawas,1.3506588499999999,103.69188928314975,openstreetmap,jrl_1
+TE22A,Founders' Memorial,1.29083255,103.86911498010159,openstreetmap,
+JE0,Tengah,1.3662254,103.7300925,openstreetmap,jrl_2
+JE1,Tengah Plantation,1.3573609,103.733406,openstreetmap,jrl_2
+JE2,Tengah Park,1.3522936,103.7368054,openstreetmap,jrl_2
+JE3,Bukit Batok West,1.3455305,103.7397329,openstreetmap,jrl_2
+JE4,Toh Guan,1.3400465,103.7426012,openstreetmap,jrl_2
+JE5,Jurong East,1.3329005,103.7419367,openstreetmap,jrl_2
+JE6,Jurong Town Hall,1.3264148,103.7452272,openstreetmap,jrl_2
+JE7,Pandan Reservoir,1.320439,103.7448028,openstreetmap,jrl_2
+JS9,Enterprise,1.3328021,103.7085422,openstreetmap,jrl_3
+JS10,Tukang,1.3253215,103.7092754,openstreetmap,jrl_3
+JS11,Jurong Hill,1.318581,103.7102098,openstreetmap,jrl_3
+JS12,Jurong Pier,1.313022,103.7104354,openstreetmap,jrl_3
+JW3,Nanyang Gateway,1.3537812,103.6866773,openstreetmap,jrl_3
+JW4,Nanyang Crescent,1.3485428,103.6811253,openstreetmap,jrl_3
+JW5,Peng Kang Hill,1.3338446,103.6668506,openstreetmap,jrl_3
+CR2,Aviation Park,1.3702162,104.00351666333239,openstreetmap,crl_1
+CR3,Loyang,1.37153825,103.9723697170992,openstreetmap,crl_1
+CR4,Pasir Ris East,1.36708265,103.96049178712413,openstreetmap,crl_1
+CR5,Pasir Ris,1.37128735,103.94847083337655,openstreetmap,crl_1
+CR6,Tampines North,1.3690124,103.93809295626107,openstreetmap,crl_1
+CR7,Defu,1.36220375,103.8989547061777,openstreetmap,crl_1
+CR8,Hougang,1.3712507,103.8907866,openstreetmap,crl_1
+CR9,Serangoon North,1.3703489000000002,103.8747510760485,openstreetmap,crl_1
+CR10,Tavistock,1.37009165,103.86270735882033,openstreetmap,crl_1
+CR11,Ang Mo Kio,1.3692077999999999,103.85039863467846,openstreetmap,crl_1
+CR12,Teck Ghee,1.3656117,103.84360631056299,openstreetmap,crl_1
+CR13,Bright Hill,1.3630941,103.83691671999914,openstreetmap,crl_1
+CR14,Turf City,1.340922,103.79430247483285,openstreetmap,crl_2
+CR15,King Albert Park,1.33401975,103.7824767728621,openstreetmap,crl_2
+CR16,Maju,1.3276587499999999,103.77654689312335,openstreetmap,crl_2
+CR17,Clementi,1.3168251,103.76604037254504,openstreetmap,crl_2
+CR18,West Coast,1.3106229,103.75795795574777,openstreetmap,crl_2
+CR19,Jurong Lake District,1.3276184500000001,103.73881989658071,openstreetmap,crl_2
+CP1,Pasir Ris,1.37128735,103.94847083337655,openstreetmap,crl_pe
+CP2,Elias,1.3833508,103.9390071,openstreetmap,crl_pe
+CP3,Riviera,1.3959577,103.91586335378861,openstreetmap,crl_pe
+CP4,Punggol,1.4054248,103.90179674458341,openstreetmap,crl_pe
+NS3A,Brickland,1.3684781,103.74962412165956,openstreetmap,
+CR1,Changi Airport Terminal 5,1.33473,103.99643,manual,cg_tel_c
+TE32,Changi Airport Terminal 5,1.33473,103.99643,manual,cg_tel_c
+CC18,Bukit Brown,1.33372888295973,103.830689549849,onemap,
+DT,Sungei Kadut,1.4125423,103.7493903,openstreetmap,
+NS6,Sungei Kadut,1.4125423,103.7493903,openstreetmap,
+TE4A,Tagore,1.3903418,103.8266128,manual,
+TE10,Mount Pleasant,1.32856455460666,103.83518858199,onemap,
+TE21,Marina South,1.27455475919137,103.863574321728,onemap,

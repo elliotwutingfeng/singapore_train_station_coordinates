@@ -140,6 +140,33 @@ def get_coordinates_openstreetmap(station_name):
     return None
 
 
+def create_kml(coordinates_file="all_stations.csv"):
+    points = []
+    with open(coordinates_file, "r") as f:
+        csv_reader = csv.reader(f)
+        next(csv_reader)
+        for row in csv_reader:
+            points.append((f"{row[0]} {row[1]}", row[2], row[3]))
+    kml_file = coordinates_file.removesuffix(".csv") + ".kml"
+    with open(kml_file, "w") as f:
+        f.write('<?xml version="1.0" encoding="UTF-8"?>\n')
+        f.write('<kml xmlns="http://www.opengis.net/kml/2.2">\n')
+        f.write("<Document>\n")
+
+        for name, lat, lon in points:
+            f.write(f"  <Placemark>\n")
+            f.write(f"    <name>{name}</name>\n")
+            f.write(f"    <Point>\n")
+            f.write(f"      <coordinates>{lon},{lat}</coordinates>\n")
+            f.write(f"    </Point>\n")
+            f.write(f"  </Placemark>\n")
+
+        f.write("</Document>\n")
+        f.write("</kml>\n")
+
+    print(f"KML file saved as: {kml_file}")
+
+
 if __name__ == "__main__":
     stations = {
         station: {
@@ -158,16 +185,14 @@ if __name__ == "__main__":
         csv_reader = csv.reader(lines)
         next(csv_reader)  # Skip header.
         for row in csv_reader:
-            full_station_name = row[0]
-            full_station_name_ = full_station_name.split(" ", 1)
-            station_code, station_name = full_station_name_[0], full_station_name_[1]
+            station_code, station_name = row[0], row[1]
             if (station_code, station_name) not in stations:
                 future_station_codes.add(station_code)
                 stations[(station_code, station_name)] = {
-                    "lat": row[1],
-                    "lon": row[2],
-                    "source": row[3],
-                    "comment": row[4],
+                    "lat": row[2],
+                    "lon": row[3],
+                    "source": row[4],
+                    "comment": row[5],
                 }
 
     for (station_code, station_name), station_details in stations.items():
@@ -242,3 +267,7 @@ if __name__ == "__main__":
                 key=lambda x: to_station_code_components(x[0]),
             ),
         )
+
+    create_kml("all_stations.csv")
+    create_kml("future_stations.csv")
+    create_kml("stations.csv")

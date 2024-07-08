@@ -16,6 +16,8 @@
 
 - [all_stations.csv](all_stations.csv) contains all of the above.
 
+- [KML files](https://simple.wikipedia.org/wiki/Keyhole_Markup_Language) for the above datasets are provided as well.
+
 ## Dataset License
 
 See [LICENSE-DATASET](LICENSE-DATASET)
