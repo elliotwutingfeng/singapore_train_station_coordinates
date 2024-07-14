@@ -140,7 +140,7 @@ def get_coordinates_openstreetmap(station_name):
     return None
 
 
-def create_kml(coordinates_file="all_stations.csv"):
+def create_kml(coordinates_file: str):
     points = []
     with open(coordinates_file, "r") as f:
         csv_reader = csv.reader(f)
@@ -268,6 +268,19 @@ if __name__ == "__main__":
             ),
         )
 
+    with open("defunct_stations.csv", "w") as f:
+        csv_writer = csv.writer(f)
+        csv_writer.writerow(
+            ("station_code", "station_name", "lat", "lon", "source", "comment")
+        )
+        csv_writer.writerows(
+            sorted(
+                [("BP14", "Ten Mile Junction", 1.3803369, 103.7601679, "onemap", "")],
+                key=lambda x: to_station_code_components(x[0]),
+            ),
+        )
+
     create_kml("all_stations.csv")
     create_kml("future_stations.csv")
     create_kml("stations.csv")
+    create_kml("defunct_stations.csv")
