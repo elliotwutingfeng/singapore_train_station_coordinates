@@ -16,6 +16,8 @@
 
 - [all_stations.csv](all_stations.csv) contains all of the above.
 
+- [defunct_stations.csv](defunct_stations.csv) contains stations that are no longer in operation.
+
 - [KML files](https://simple.wikipedia.org/wiki/Keyhole_Markup_Language) for the above datasets are provided as well.
 
 ## Dataset License
