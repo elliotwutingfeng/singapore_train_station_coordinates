@@ -61,7 +61,7 @@ def to_station_code_components(station_code: str) -> tuple[str, int, str]:
     return line_code, station_number, station_number_suffix
 
 
-def get_stations(endpoint: str) -> list[tuple[str, str]]:
+def get_station_names(endpoint: str) -> list[tuple[str, str]]:
     """Download train station codes and station names.
 
     Args:
@@ -168,6 +168,7 @@ def create_kml(coordinates_file: str):
 
 
 if __name__ == "__main__":
+    # Get list of operational stations from LTA.
     stations = {
         station: {
             "lat": None,
@@ -175,26 +176,10 @@ if __name__ == "__main__":
             "source": None,
             "comment": None,
         }
-        for station in get_stations(STATION_DATA_ENDPOINT)
+        for station in get_station_names(STATION_DATA_ENDPOINT)
     }
 
-    # Add future stations
-    future_station_codes = set()
-    with open("future_stations.csv", "r") as f:
-        lines = f.readlines()
-        csv_reader = csv.reader(lines)
-        next(csv_reader)  # Skip header.
-        for row in csv_reader:
-            station_code, station_name = row[0], row[1]
-            if (station_code, station_name) not in stations:
-                future_station_codes.add(station_code)
-                stations[(station_code, station_name)] = {
-                    "lat": row[2],
-                    "lon": row[3],
-                    "source": row[4],
-                    "comment": row[5],
-                }
-
+    # Get all operational stations coordinates from OneMap.
     for (station_code, station_name), station_details in stations.items():
         full_station_name = f"{station_code} {station_name}"
         coordinates = None
@@ -211,17 +196,36 @@ if __name__ == "__main__":
                     break
             except Exception as e:
                 _ = e
-        if coordinates:
-            continue
-        location_name = station_name
-        try:
-            coordinates = get_coordinates_openstreetmap(location_name)
-            if coordinates:
-                stations[(station_code, station_name)]["lat"] = coordinates[0]
-                stations[(station_code, station_name)]["lon"] = coordinates[1]
-                stations[(station_code, station_name)]["source"] = "openstreetmap"
-        except Exception as e:
-            _ = e
+
+        # if coordinates:
+        #     continue
+        # location_name = station_name
+        # try:
+        #     coordinates = get_coordinates_openstreetmap(location_name)
+        #     if coordinates:
+        #         stations[(station_code, station_name)]["lat"] = coordinates[0]
+        #         stations[(station_code, station_name)]["lon"] = coordinates[1]
+        #         stations[(station_code, station_name)]["source"] = "openstreetmap"
+        # except Exception as e:
+        #     _ = e
+
+    # Add future stations.
+    # future_stations.csv is a manually compiled dataset.
+    future_station_codes = set()
+    with open("future_stations.csv", "r") as f:
+        lines = f.readlines()
+        csv_reader = csv.reader(lines)
+        next(csv_reader)  # Skip header.
+        for row in csv_reader:
+            station_code, station_name = row[0], row[1]
+            if (station_code, station_name) not in stations:
+                future_station_codes.add(station_code)
+                stations[(station_code, station_name)] = {
+                    "lat": row[2],
+                    "lon": row[3],
+                    "source": row[4],
+                    "comment": row[5],
+                }
 
     with open("all_stations.csv", "w") as f:
         csv_writer = csv.writer(f)

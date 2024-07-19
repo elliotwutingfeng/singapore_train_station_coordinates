@@ -163,3 +163,4 @@ cython_debug/
 .vscode
 .DS_STORE
 *.ipynb
+!future_stations.ipynb
