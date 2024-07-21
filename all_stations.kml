@@ -860,12 +860,6 @@
     </Point>
   </Placemark>
   <Placemark>
-    <name>JE0 Tengah</name>
-    <Point>
-      <coordinates>103.73008354165452,1.3663843951975398</coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
     <name>JE1 Tengah Plantation</name>
     <Point>
       <coordinates>103.73345298368662,1.357332135264109</coordinates>
