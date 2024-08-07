@@ -286,7 +286,7 @@
   <Placemark>
     <name>CR14 Turf City</name>
     <Point>
-      <coordinates>103.79430247483285,1.340922</coordinates>
+      <coordinates>103.794401,1.340613</coordinates>
     </Point>
   </Placemark>
   <Placemark>
@@ -298,7 +298,7 @@
   <Placemark>
     <name>CR16 Maju</name>
     <Point>
-      <coordinates>103.77654689312337,1.32765875</coordinates>
+      <coordinates>103.777127,1.327985</coordinates>
     </Point>
   </Placemark>
   <Placemark>
@@ -310,13 +310,13 @@
   <Placemark>
     <name>CR18 West Coast</name>
     <Point>
-      <coordinates>103.75795795574776,1.3106229</coordinates>
+      <coordinates>103.757885,1.310566</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CR19 Jurong Lake District</name>
     <Point>
-      <coordinates>103.73881989658072,1.32761845</coordinates>
+      <coordinates>103.739324,1.327147</coordinates>
     </Point>
   </Placemark>
   <Placemark>
@@ -328,7 +328,7 @@
   <Placemark>
     <name>CP2 Elias</name>
     <Point>
-      <coordinates>103.9390071,1.3833508</coordinates>
+      <coordinates>103.939046,1.383221</coordinates>
     </Point>
   </Placemark>
   <Placemark>
@@ -346,7 +346,7 @@
   <Placemark>
     <name>NS3A Brickland</name>
     <Point>
-      <coordinates>103.74962412165956,1.3684781</coordinates>
+      <coordinates>103.746989,1.370728</coordinates>
     </Point>
   </Placemark>
   <Placemark>
@@ -370,13 +370,13 @@
   <Placemark>
     <name>DT Sungei Kadut</name>
     <Point>
-      <coordinates>103.7493903,1.4125423</coordinates>
+      <coordinates>103.750198,1.412569</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS6 Sungei Kadut</name>
     <Point>
-      <coordinates>103.7493903,1.4125423</coordinates>
+      <coordinates>103.748749,1.413404</coordinates>
     </Point>
   </Placemark>
   <Placemark>

@@ -114,6 +114,9 @@ def get_coordinates_onemap(location_name):
 
 
 def get_coordinates_openstreetmap(station_name):
+    # Contains information from [OpenStreetMap®](https://www.openstreetmap.org/copyright) made available under the
+    # [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/1-0)
+    # by the [OpenStreetMap Foundation (OSMF)](https://osmfoundation.org).
     overpass_url = "http://overpass-api.de/api/interpreter"
 
     overpass_query = f"""
