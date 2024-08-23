@@ -4,7 +4,12 @@
   <img src="images/train.svg" alt="Train" width="200" height="200">
 
   <p align="center">
-  Geographic coordinates (in decimal degrees) of Singapore train stations obtained from the <a href="https://www.onemap.gov.sg">Singapore Government OneMap API</a> and <a href="https://www.openstreetmap.org">OpenStreetMap® API</a>.
+  Geographic coordinates (in decimal degrees) of Singapore train stations obtained from the <a href="https://www.onemap.gov.sg">Singapore Government OneMap API</a>.
+  </p>
+
+  <p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/SOURCE_CODE_LICENSE-Apache--2.0-GREEN?style=for-the-badge" alt="Apache-2.0 license"/></a>
+  <a href="LICENSE-DATASET.md"><img src="https://img.shields.io/badge/DATASET_LICENSE-SODL--1.0-GREEN?style=for-the-badge" alt="SODL-1.0 License"/></a>
   </p>
 </div>
 
@@ -22,7 +27,7 @@
 
 ## Dataset License
 
-See [LICENSE-DATASET](LICENSE-DATASET)
+See [LICENSE-DATASET.md](LICENSE-DATASET.md)
 
 ## Source Code License
 

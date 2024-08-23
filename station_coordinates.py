@@ -113,34 +113,34 @@ def get_coordinates_onemap(location_name):
     return None
 
 
-def get_coordinates_openstreetmap(station_name):
-    # Contains information from [OpenStreetMap®](https://www.openstreetmap.org/copyright) made available under the
-    # [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/1-0)
-    # by the [OpenStreetMap Foundation (OSMF)](https://osmfoundation.org).
-    overpass_url = "http://overpass-api.de/api/interpreter"
+# def get_coordinates_openstreetmap(station_name):
+#     # Contains information from [OpenStreetMap®](https://www.openstreetmap.org/copyright) made available under the
+#     # [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/1-0)
+#     # by the [OpenStreetMap Foundation (OSMF)](https://osmfoundation.org).
+#     overpass_url = "http://overpass-api.de/api/interpreter"
 
-    overpass_query = f"""
-    [out:json];
-    area["ISO3166-1"="SG"]->.searchArea;
-    node[railway=station][name="{station_name}"](area.searchArea);
-    out body;
-    """
+#     overpass_query = f"""
+#     [out:json];
+#     area["ISO3166-1"="SG"]->.searchArea;
+#     node[railway=station][name="{station_name}"](area.searchArea);
+#     out body;
+#     """
 
-    response = requests.get(overpass_url, params={"data": overpass_query}, timeout=15)
+#     response = requests.get(overpass_url, params={"data": overpass_query}, timeout=15)
 
-    if response.status_code == 200:
-        data = response.json()
-    else:
-        raise Exception(
-            f"Error fetching data from Overpass API: {response.status_code}"
-        )
-    for element in data["elements"]:
-        name = element.get("tags", {}).get("name", "Unnamed Station")
-        lat = element["lat"]
-        lon = element["lon"]
-        if station_name.lower() in name.lower() and lat and lon:
-            return float(lat), float(lon)
-    return None
+#     if response.status_code == 200:
+#         data = response.json()
+#     else:
+#         raise Exception(
+#             f"Error fetching data from Overpass API: {response.status_code}"
+#         )
+#     for element in data["elements"]:
+#         name = element.get("tags", {}).get("name", "Unnamed Station")
+#         lat = element["lat"]
+#         lon = element["lon"]
+#         if station_name.lower() in name.lower() and lat and lon:
+#             return float(lat), float(lon)
+#     return None
 
 
 def create_kml(coordinates_file: str):

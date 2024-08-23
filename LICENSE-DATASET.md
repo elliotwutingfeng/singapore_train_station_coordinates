@@ -14,4 +14,3 @@ Some coordinates were derived from maps in LTA news releases.
 - <https://www.lta.gov.sg/content/ltagov/en/newsroom/2024/1/news-releases/lta_awards_civil_contract.html>
 - <https://www.lta.gov.sg/content/ltagov/en/newsroom/2024/5/news-releases/lta_awards_civil_contract_for_design_and_construction_of_crl_turf_city.html>
 - <https://www.lta.gov.sg/content/ltagov/en/newsroom/2024/7/news-releases/lta_awards_civil_contract_for_design_and_construction_of_CRL.html>
-
