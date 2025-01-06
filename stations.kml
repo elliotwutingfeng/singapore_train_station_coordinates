@@ -770,6 +770,12 @@
     </Point>
   </Placemark>
   <Placemark>
+    <name>NE18 Punggol Coast</name>
+    <Point>
+      <coordinates>103.910166388177,1.41492733388605</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
     <name>NS1 Jurong East</name>
     <Point>
       <coordinates>103.742286332403,1.33315281585758</coordinates>
@@ -983,6 +989,12 @@
     <name>PW1 Sam Kee</name>
     <Point>
       <coordinates>103.904831550608,1.40961268528804</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>PW2 Teck Lee</name>
+    <Point>
+      <coordinates>103.906577622768,1.4127708937463</coordinates>
     </Point>
   </Placemark>
   <Placemark>

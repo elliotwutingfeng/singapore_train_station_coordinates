@@ -434,7 +434,13 @@
     </Point>
   </Placemark>
   <Placemark>
-    <name>DT Sungei Kadut</name>
+    <name>DE1 Yew Tee Village</name>
+    <Point>
+      <coordinates>103.752644,1.400099</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
+    <name>DE2 Sungei Kadut</name>
     <Point>
       <coordinates>103.750198,1.412569</coordinates>
     </Point>

@@ -184,21 +184,23 @@ if __name__ == "__main__":
 
     # Get all operational stations coordinates from OneMap.
     for (station_code, station_name), station_details in stations.items():
-        full_station_name = f"{station_code} {station_name}"
         coordinates = None
-        for location_name in (
-            full_station_name + " MRT",
-            full_station_name + " LRT",
-        ):
-            try:
-                coordinates = get_coordinates_onemap(location_name)
-                if coordinates:
-                    stations[(station_code, station_name)]["lat"] = coordinates[0]
-                    stations[(station_code, station_name)]["lon"] = coordinates[1]
-                    stations[(station_code, station_name)]["source"] = "onemap"
-                    break
-            except Exception as e:
-                _ = e
+        location_name = (
+            f"{station_name.upper()} LRT STATION ({station_code})"
+            if any(
+                station_code.startswith(line_code)
+                for line_code in ("BP", "PE", "PT", "PW", "SE", "ST", "SW")
+            )
+            else f"{station_name.upper()} MRT STATION ({station_code})"
+        )
+        try:
+            coordinates = get_coordinates_onemap(location_name)
+            if coordinates:
+                stations[(station_code, station_name)]["lat"] = coordinates[0]
+                stations[(station_code, station_name)]["lon"] = coordinates[1]
+                stations[(station_code, station_name)]["source"] = "onemap"
+        except Exception as e:
+            _ = e
 
         # if coordinates:
         #     continue

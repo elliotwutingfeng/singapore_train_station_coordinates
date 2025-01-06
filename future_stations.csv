@@ -60,8 +60,9 @@ NS3A,Brickland,1.370728,103.746989,lta,
 CR1,Changi Airport Terminal 5,1.33473,103.99643,manual,cg_tel_c
 TE32,Changi Airport Terminal 5,1.33473,103.99643,manual,cg_tel_c
 CC18,Bukit Brown,1.33372888295973,103.830689549849,onemap,
-DT,Sungei Kadut,1.412569,103.750198,manual,
-NS6,Sungei Kadut,1.413404,103.748749,manual,
+DE1,Yew Tee Village,1.400099,103.752644,manual,dtl_2e
+DE2,Sungei Kadut,1.412569,103.750198,manual,dtl_2e
+NS6,Sungei Kadut,1.413404,103.748749,manual,dtl_2e
 TE4A,Tagore,1.3903418,103.8266128,manual,
 TE10,Mount Pleasant,1.32856455460666,103.83518858199,onemap,
 TE21,Marina South,1.27455475919137,103.863574321728,onemap,
