@@ -57,8 +57,8 @@ CP2,Elias,1.383221,103.939046,lta,crl_pe
 CP3,Riviera,1.3946364786075784,103.9162237900092,ura,crl_pe
 CP4,Punggol,1.4051325907855552,103.90237397817718,ura,crl_pe
 NS3A,Brickland,1.370728,103.746989,lta,
-CR1,Changi Airport Terminal 5,1.33473,103.99643,manual,cg_tel_c
-TE32,Changi Airport Terminal 5,1.33473,103.99643,manual,cg_tel_c
+CR1,Changi Airport Terminal 5,1.33473,103.99643,manual,tel_e
+TE32,Changi Airport Terminal 5,1.33473,103.99643,manual,tel_e
 CC18,Bukit Brown,1.33372888295973,103.830689549849,onemap,
 DE1,Yew Tee Village,1.400099,103.752644,manual,dtl_2e
 DE2,Sungei Kadut,1.412569,103.750198,manual,dtl_2e
