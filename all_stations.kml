@@ -320,9 +320,9 @@
     </Point>
   </Placemark>
   <Placemark>
-    <name>CR1 Changi Airport Terminal 5</name>
+    <name>CR1 Changi Terminal 5</name>
     <Point>
-      <coordinates>103.99643,1.33473</coordinates>
+      <coordinates>103.99013,1.32697</coordinates>
     </Point>
   </Placemark>
   <Placemark>
@@ -1658,9 +1658,9 @@
     </Point>
   </Placemark>
   <Placemark>
-    <name>TE32 Changi Airport Terminal 5</name>
+    <name>TE32 Changi Terminal 5</name>
     <Point>
-      <coordinates>103.99643,1.33473</coordinates>
+      <coordinates>103.99013,1.32697</coordinates>
     </Point>
   </Placemark>
 </Document>
