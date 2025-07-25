@@ -290,6 +290,12 @@
     </Point>
   </Placemark>
   <Placemark>
+    <name>DT4 Hume</name>
+    <Point>
+      <coordinates>103.76910392895523,1.354510835593032</coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
     <name>DT5 Beauty World</name>
     <Point>
       <coordinates>103.775794285083,1.34122317558549</coordinates>
