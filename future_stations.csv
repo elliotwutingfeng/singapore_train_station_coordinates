@@ -1,7 +1,4 @@
 station_code,station_name,lat,lon,source,comment
-NE18,Punggol Coast,1.41492733388605,103.910166388177,onemap,nel_pe
-PW2,Teck Lee,1.4127708937463,103.906577622768,onemap,
-DT4,Hume,1.354510835593032,103.76910392895523,ura,
 TE30,Bedok South,1.31668400658419,103.94931120983,onemap,tel_5
 TE31,Sungei Bedok,1.32040148729112,103.957183823478,onemap,tel_5
 DT36,Xilin,1.32890694938858,103.964902569595,onemap,dtl_3e
@@ -57,8 +54,8 @@ CP2,Elias,1.383221,103.939046,lta,crl_pe
 CP3,Riviera,1.3946364786075784,103.9162237900092,ura,crl_pe
 CP4,Punggol,1.4051325907855552,103.90237397817718,ura,crl_pe
 NS3A,Brickland,1.370728,103.746989,lta,
-CR1,Changi Airport Terminal 5,1.33473,103.99643,manual,tel_e
-TE32,Changi Airport Terminal 5,1.33473,103.99643,manual,tel_e
+CR1,Changi Terminal 5,1.32697,103.99013,manual,tel_e
+TE32,Changi Terminal 5,1.32697,103.99013,manual,tel_e
 CC18,Bukit Brown,1.33372888295973,103.830689549849,onemap,
 DE1,Yew Tee Village,1.400099,103.752644,manual,dtl_2e
 DE2,Sungei Kadut,1.412569,103.750198,manual,dtl_2e
