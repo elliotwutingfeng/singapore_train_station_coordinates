@@ -4,1483 +4,1483 @@
   <Placemark>
     <name>BP1 Choa Chu Kang</name>
     <Point>
-      <coordinates>103.74453769781,1.38475541089131</coordinates>
+      <coordinates>103.74434408893133,1.3851254680366532</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>BP2 South View</name>
     <Point>
-      <coordinates>103.745291799824,1.38029828742399</coordinates>
+      <coordinates>103.74529179982976,1.380298286261839</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>BP3 Keat Hong</name>
     <Point>
-      <coordinates>103.749055668925,1.3786032506373</coordinates>
+      <coordinates>103.74905150388537,1.3786121668142508</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>BP4 Teck Whye</name>
     <Point>
-      <coordinates>103.753712232337,1.37668467920808</coordinates>
+      <coordinates>103.75369963153,1.3766592934552422</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>BP5 Phoenix</name>
     <Point>
-      <coordinates>103.757995558346,1.37861545104083</coordinates>
+      <coordinates>103.75803362307677,1.3786249492919498</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>BP6 Bukit Panjang</name>
     <Point>
-      <coordinates>103.763102931112,1.37792694616982</coordinates>
+      <coordinates>103.76235265975984,1.378485469375234</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>BP7 Petir</name>
     <Point>
-      <coordinates>103.766645782497,1.37777204259082</coordinates>
+      <coordinates>103.76666727587175,1.3777549868542922</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>BP8 Pending</name>
     <Point>
-      <coordinates>103.771261175571,1.37613574334988</coordinates>
+      <coordinates>103.7712797503296,1.3761265381792571</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>BP9 Bangkit</name>
     <Point>
-      <coordinates>103.772647370452,1.38002223010088</coordinates>
+      <coordinates>103.77266121907934,1.3800154942226468</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>BP10 Fajar</name>
     <Point>
-      <coordinates>103.770887223018,1.38457317668026</coordinates>
+      <coordinates>103.77083795595894,1.3845326784759364</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>BP11 Segar</name>
     <Point>
-      <coordinates>103.769599685249,1.38778508663361</coordinates>
+      <coordinates>103.76965965382928,1.387756408019682</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>BP12 Jelapang</name>
     <Point>
-      <coordinates>103.76453408646,1.38673926997961</coordinates>
+      <coordinates>103.7645005796885,1.3866966768351228</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>BP13 Senja</name>
     <Point>
-      <coordinates>103.76234425472,1.38272547134453</coordinates>
+      <coordinates>103.76236875414202,1.3826992425630433</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC1 Dhoby Ghaut</name>
     <Point>
-      <coordinates>103.84629250696,1.29891164362677</coordinates>
+      <coordinates>103.8458117190266,1.2991489615370466</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC2 Bras Basah</name>
     <Point>
-      <coordinates>103.850667371637,1.29686168649656</coordinates>
+      <coordinates>103.85065880858372,1.2968300501137628</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC3 Esplanade</name>
     <Point>
-      <coordinates>103.855081226245,1.2936577245386</coordinates>
+      <coordinates>103.85561426886412,1.2932723026397464</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC4 Promenade</name>
     <Point>
-      <coordinates>103.860350000188,1.29399798636232</coordinates>
+      <coordinates>103.86094756856582,1.293143901003921</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC5 Nicoll Highway</name>
     <Point>
-      <coordinates>103.86363696572,1.29976684675139</coordinates>
+      <coordinates>103.86363313784665,1.299802829852342</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC6 Stadium</name>
     <Point>
-      <coordinates>103.875337711089,1.3028124684707</coordinates>
+      <coordinates>103.87534796400688,1.3028540998999254</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC7 Mountbatten</name>
     <Point>
-      <coordinates>103.882528081052,1.30620190525331</coordinates>
+      <coordinates>103.8825470150979,1.306193786928982</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC8 Dakota</name>
     <Point>
-      <coordinates>103.889064718377,1.30854798388121</coordinates>
+      <coordinates>103.88866829951886,1.3083751546374272</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC9 Paya Lebar</name>
     <Point>
-      <coordinates>103.892260753884,1.3172473854035</coordinates>
+      <coordinates>103.89267068880001,1.3177432141186658</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC10 MacPherson</name>
     <Point>
-      <coordinates>103.890391305725,1.32607760171665</coordinates>
+      <coordinates>103.8898166121914,1.3262293288956457</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC11 Tai Seng</name>
     <Point>
-      <coordinates>103.888389300191,1.33514150139202</coordinates>
+      <coordinates>103.88816447575532,1.3354531033466337</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC12 Bartley</name>
     <Point>
-      <coordinates>103.880177899184,1.34250117805245</coordinates>
+      <coordinates>103.87972518719033,1.3428468439645</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC13 Serangoon</name>
     <Point>
-      <coordinates>103.872771660431,1.35063361526525</coordinates>
+      <coordinates>103.87304885351502,1.3500741477714449</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC14 Lorong Chuan</name>
     <Point>
-      <coordinates>103.864151938651,1.35161217074555</coordinates>
+      <coordinates>103.86414412658448,1.3516197558599472</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC15 Bishan</name>
     <Point>
-      <coordinates>103.84914026532,1.35131580146658</coordinates>
+      <coordinates>103.84868243429734,1.3510484822751936</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC16 Marymount</name>
     <Point>
-      <coordinates>103.839423132332,1.348707263451</coordinates>
+      <coordinates>103.8394101808655,1.3487780553384583</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC17 Caldecott</name>
     <Point>
-      <coordinates>103.839529820338,1.33767450815619</coordinates>
+      <coordinates>103.83986538570805,1.3375387677791497</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC18 Bukit Brown</name>
     <Point>
-      <coordinates>103.830689549849,1.33372888295973</coordinates>
+      <coordinates>103.83071216429913,1.3337318981200899</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC19 Botanic Gardens</name>
     <Point>
-      <coordinates>103.814984510627,1.32211373558877</coordinates>
+      <coordinates>103.81561860443068,1.3222556032290131</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC20 Farrer Road</name>
     <Point>
-      <coordinates>103.807379214161,1.31743915158967</coordinates>
+      <coordinates>103.80748912456241,1.3174545708323449</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC21 Holland Village</name>
     <Point>
-      <coordinates>103.796399122407,1.31224029631595</coordinates>
+      <coordinates>103.79623333601177,1.3119456175150919</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC22 Buona Vista</name>
     <Point>
-      <coordinates>103.790709404436,1.30663450405</coordinates>
+      <coordinates>103.79028747130236,1.3068710122280809</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC23 one-north</name>
     <Point>
-      <coordinates>103.78745750525,1.29975987493555</coordinates>
+      <coordinates>103.78739137925261,1.2996514573113378</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC24 Kent Ridge</name>
     <Point>
-      <coordinates>103.784572738173,1.29353349887123</coordinates>
+      <coordinates>103.78449793835178,1.2934009381438487</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC25 Haw Par Villa</name>
     <Point>
-      <coordinates>103.781752725064,1.28257135772488</coordinates>
+      <coordinates>103.78182132863023,1.2825029022300132</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC26 Pasir Panjang</name>
     <Point>
-      <coordinates>103.791350313288,1.27621352233766</coordinates>
+      <coordinates>103.79134196573705,1.2762296702371938</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC27 Labrador Park</name>
     <Point>
-      <coordinates>103.802631578766,1.27225417749656</coordinates>
+      <coordinates>103.80292770476869,1.2723234942957917</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC28 Telok Blangah</name>
     <Point>
-      <coordinates>103.809761611219,1.27070647717762</coordinates>
+      <coordinates>103.809739740652,1.2705817890107285</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC29 HarbourFront</name>
     <Point>
-      <coordinates>103.821530157095,1.26538938374901</coordinates>
+      <coordinates>103.82150740808491,1.265310691626473</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC30 Keppel</name>
     <Point>
-      <coordinates>103.830031459524,1.26977220124441</coordinates>
+      <coordinates>103.83029594184094,1.2701719539198713</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC31 Cantonment</name>
     <Point>
-      <coordinates>103.837062313764,1.27287214563203</coordinates>
+      <coordinates>103.8367402503118,1.2730817331802042</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CC32 Prince Edward Road</name>
     <Point>
-      <coordinates>103.847097123745,1.27315693636085</coordinates>
+      <coordinates>103.84726563653462,1.2732407280310234</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CE1 Bayfront</name>
     <Point>
-      <coordinates>103.859079764874,1.28187378879209</coordinates>
+      <coordinates>103.85907514177777,1.2818722431382803</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CE2 Marina Bay</name>
     <Point>
-      <coordinates>103.855447156279,1.27625146423743</coordinates>
+      <coordinates>103.85498166544687,1.2758094294533002</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CG1 Expo</name>
     <Point>
-      <coordinates>103.961548211018,1.33454977824817</coordinates>
+      <coordinates>103.96196341596709,1.3348980488177347</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CG2 Changi Airport</name>
     <Point>
-      <coordinates>103.98788356959,1.35747897447692</coordinates>
+      <coordinates>103.98834814909442,1.3573189576183131</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CP1 Pasir Ris</name>
     <Point>
-      <coordinates>103.94888291887848,1.371259477431133</coordinates>
+      <coordinates>103.94933430267868,1.3720098191020362</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CP2 Elias</name>
     <Point>
-      <coordinates>103.939046,1.383221</coordinates>
+      <coordinates>103.93897005128616,1.383463000240358</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CP3 Riviera</name>
     <Point>
-      <coordinates>103.9162237900092,1.3946364786075784</coordinates>
+      <coordinates>103.91593242521265,1.3953581720237742</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CP4 Punggol</name>
     <Point>
-      <coordinates>103.90237397817718,1.4051325907855552</coordinates>
+      <coordinates>103.90240395660469,1.405165442795008</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CR1 Changi Terminal 5</name>
     <Point>
-      <coordinates>103.99013,1.32697</coordinates>
+      <coordinates>103.99196794225878,1.3243986092035498</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CR2 Aviation Park</name>
     <Point>
-      <coordinates>104.00351384805849,1.370211388184954</coordinates>
+      <coordinates>104.00351389332846,1.3702113670676506</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CR3 Loyang</name>
     <Point>
-      <coordinates>103.97192000259416,1.371144393904073</coordinates>
+      <coordinates>103.97222524704989,1.3714039693793765</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CR4 Pasir Ris East</name>
     <Point>
-      <coordinates>103.9605806660392,1.3670184950774231</coordinates>
+      <coordinates>103.96054831249381,1.367050629369177</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CR5 Pasir Ris</name>
     <Point>
-      <coordinates>103.94888291887848,1.371259477431133</coordinates>
+      <coordinates>103.94933430267868,1.3720098191020362</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CR6 Tampines North</name>
     <Point>
-      <coordinates>103.93813242151016,1.3694285704911953</coordinates>
+      <coordinates>103.9381069524582,1.369449526486207</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CR7 Defu</name>
     <Point>
-      <coordinates>103.89899601290718,1.362340217706843</coordinates>
+      <coordinates>103.89899601290712,1.362340217706898</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CR8 Hougang</name>
     <Point>
-      <coordinates>103.89114720923538,1.3709756026538165</coordinates>
+      <coordinates>103.8917486395222,1.37121513084043</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CR9 Serangoon North</name>
     <Point>
-      <coordinates>103.87379114279713,1.3706026103890074</coordinates>
+      <coordinates>103.87392796807833,1.3705661627364352</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CR10 Tavistock</name>
     <Point>
-      <coordinates>103.86325202011629,1.3701885491112915</coordinates>
+      <coordinates>103.86327814413596,1.3701972380126186</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CR11 Ang Mo Kio</name>
     <Point>
-      <coordinates>103.85090944829145,1.3693883850961412</coordinates>
+      <coordinates>103.85025142310502,1.3696725253555933</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CR12 Teck Ghee</name>
     <Point>
-      <coordinates>103.84351959304215,1.3654215690477902</coordinates>
+      <coordinates>103.84360463817544,1.3655366015365205</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CR13 Bright Hill</name>
     <Point>
-      <coordinates>103.83493819676748,1.3633085324439822</coordinates>
+      <coordinates>103.83447249683356,1.3632817842745766</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CR14 Turf City</name>
     <Point>
-      <coordinates>103.794401,1.340613</coordinates>
+      <coordinates>103.79442676751877,1.3409139926581004</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CR15 King Albert Park</name>
     <Point>
-      <coordinates>103.7837920156923,1.3356647962031185</coordinates>
+      <coordinates>103.78308418937229,1.3347417534979744</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CR16 Maju</name>
     <Point>
-      <coordinates>103.777127,1.327985</coordinates>
+      <coordinates>103.7769245837171,1.3281487684997983</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CR17 Clementi</name>
     <Point>
-      <coordinates>103.76523303194249,1.315078221973319</coordinates>
+      <coordinates>103.76560394593672,1.3159314667201611</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CR18 West Coast</name>
     <Point>
-      <coordinates>103.757885,1.310566</coordinates>
+      <coordinates>103.7582663586318,1.3105599161973904</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>CR19 Jurong Lake District</name>
     <Point>
-      <coordinates>103.739324,1.327147</coordinates>
+      <coordinates>103.73981250483112,1.3271604433801358</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DE1 Yew Tee Village</name>
     <Point>
-      <coordinates>103.752644,1.400099</coordinates>
+      <coordinates>103.75344590447695,1.4006380047262175</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DE2 Sungei Kadut</name>
     <Point>
-      <coordinates>103.750198,1.412569</coordinates>
+      <coordinates>103.748924012435,1.4133910875005729</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT1 Bukit Panjang</name>
     <Point>
-      <coordinates>103.761535114929,1.37900211641036</coordinates>
+      <coordinates>103.76235265975984,1.378485469375234</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT2 Cashew</name>
     <Point>
-      <coordinates>103.76443921414,1.36981544925552</coordinates>
+      <coordinates>103.76469934064848,1.3693663697456693</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT3 Hillview</name>
     <Point>
-      <coordinates>103.767418254007,1.36234486803558</coordinates>
+      <coordinates>103.76742281566246,1.362336809808497</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT4 Hume</name>
     <Point>
-      <coordinates>103.76910392895523,1.354510835593032</coordinates>
+      <coordinates>103.76910392897064,1.3545108355374271</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT5 Beauty World</name>
     <Point>
-      <coordinates>103.775794285083,1.34122317558549</coordinates>
+      <coordinates>103.77579158431996,1.3412269612555616</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT6 King Albert Park</name>
     <Point>
-      <coordinates>103.783399113441,1.33566161262214</coordinates>
+      <coordinates>103.78308418937229,1.3347417534979744</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT7 Sixth Avenue</name>
     <Point>
-      <coordinates>103.796906838288,1.33085764536226</coordinates>
+      <coordinates>103.79726347741008,1.330801546139581</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT8 Tan Kah Kee</name>
     <Point>
-      <coordinates>103.807760304729,1.32555623519898</coordinates>
+      <coordinates>103.80733103974738,1.3258724508086044</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT9 Botanic Gardens</name>
     <Point>
-      <coordinates>103.816013994259,1.32248807089544</coordinates>
+      <coordinates>103.81561860443068,1.3222556032290131</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT10 Stevens</name>
     <Point>
-      <coordinates>103.826024401924,1.32006555750626</coordinates>
+      <coordinates>103.82583341635527,1.3199006799927198</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT11 Newton</name>
     <Point>
-      <coordinates>103.837714613091,1.31399286264569</coordinates>
+      <coordinates>103.83803477211077,1.3129117966563681</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT12 Little India</name>
     <Point>
-      <coordinates>103.848660935092,1.30701826765224</coordinates>
+      <coordinates>103.84927785171979,1.3071641923108004</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT13 Rochor</name>
     <Point>
-      <coordinates>103.852769428884,1.30385218527656</coordinates>
+      <coordinates>103.8524399625922,1.3039277778520966</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT14 Bugis</name>
     <Point>
-      <coordinates>103.857125959023,1.29931350344582</coordinates>
+      <coordinates>103.85626865113218,1.2999975124848677</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT15 Promenade</name>
     <Point>
-      <coordinates>103.860891800025,1.29289175383295</coordinates>
+      <coordinates>103.86094756856582,1.293143901003921</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT16 Bayfront</name>
     <Point>
-      <coordinates>103.859079764874,1.28187378879209</coordinates>
+      <coordinates>103.85907514177777,1.2818722431382803</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT17 Downtown</name>
     <Point>
-      <coordinates>103.852840829581,1.27944638178916</coordinates>
+      <coordinates>103.85284216745879,1.279441953085253</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT18 Telok Ayer</name>
     <Point>
-      <coordinates>103.848648781083,1.28206894769394</coordinates>
+      <coordinates>103.84832342237205,1.2822804876308553</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT19 Chinatown</name>
     <Point>
-      <coordinates>103.845143798953,1.28422391919085</coordinates>
+      <coordinates>103.84400359690841,1.2844979891931358</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT20 Fort Canning</name>
     <Point>
-      <coordinates>103.844331362465,1.29248194822996</coordinates>
+      <coordinates>103.84428910026826,1.292403234699504</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT21 Bencoolen</name>
     <Point>
-      <coordinates>103.850353762717,1.29891843369422</coordinates>
+      <coordinates>103.85026001961103,1.2987383503712773</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT22 Jalan Besar</name>
     <Point>
-      <coordinates>103.855295713435,1.3051713878069</coordinates>
+      <coordinates>103.85542874970528,1.30537670263359</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT23 Bendemeer</name>
     <Point>
-      <coordinates>103.862977620945,1.31367252847691</coordinates>
+      <coordinates>103.86296930045476,1.3136595922847918</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT24 Geylang Bahru</name>
     <Point>
-      <coordinates>103.871622627142,1.32130110228321</coordinates>
+      <coordinates>103.87190108504024,1.3215103924352716</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT25 Mattar</name>
     <Point>
-      <coordinates>103.883247509542,1.32687671501334</coordinates>
+      <coordinates>103.88325305986126,1.3268656821831755</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT26 MacPherson</name>
     <Point>
-      <coordinates>103.889298600376,1.32615024457361</coordinates>
+      <coordinates>103.8898166121914,1.3262293288956457</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT27 Ubi</name>
     <Point>
-      <coordinates>103.899226655439,1.32997425973974</coordinates>
+      <coordinates>103.89924886684018,1.329955264485481</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT28 Kaki Bukit</name>
     <Point>
-      <coordinates>103.908459338046,1.33496735995428</coordinates>
+      <coordinates>103.9084551578921,1.334962978665666</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT29 Bedok North</name>
     <Point>
-      <coordinates>103.91797832995,1.33474211664091</coordinates>
+      <coordinates>103.91787672264688,1.3347556340643625</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT30 Bedok Reservoir</name>
     <Point>
-      <coordinates>103.932234623286,1.33660782955099</coordinates>
+      <coordinates>103.93228754719657,1.3365987355758024</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT31 Tampines West</name>
     <Point>
-      <coordinates>103.938436971222,1.34551530560119</coordinates>
+      <coordinates>103.93843404854924,1.345514318345991</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT32 Tampines</name>
     <Point>
-      <coordinates>103.943009883131,1.35515041120473</coordinates>
+      <coordinates>103.94408991606302,1.3542205476839944</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT33 Tampines East</name>
     <Point>
-      <coordinates>103.9546344625,1.35619148271544</coordinates>
+      <coordinates>103.95485813749899,1.3562123851881451</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT34 Upper Changi</name>
     <Point>
-      <coordinates>103.961472788634,1.34173977444995</coordinates>
+      <coordinates>103.9614732441236,1.3417403773362115</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT35 Expo</name>
     <Point>
-      <coordinates>103.962374747451,1.33538252614956</coordinates>
+      <coordinates>103.96196341596709,1.3348980488177347</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT36 Xilin</name>
     <Point>
-      <coordinates>103.964902569595,1.32890694938858</coordinates>
+      <coordinates>103.96486806284406,1.328734540243039</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>DT37 Sungei Bedok</name>
     <Point>
-      <coordinates>103.957183823478,1.32040148729112</coordinates>
+      <coordinates>103.95720762079861,1.3203959599740995</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW1 Pasir Ris</name>
     <Point>
-      <coordinates>103.949284527763,1.37304331635804</coordinates>
+      <coordinates>103.94933430267868,1.3720098191020362</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW2 Tampines</name>
     <Point>
-      <coordinates>103.945144586749,1.35330167637376</coordinates>
+      <coordinates>103.94408991606302,1.3542205476839944</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW3 Simei</name>
     <Point>
-      <coordinates>103.953377214378,1.34319707851829</coordinates>
+      <coordinates>103.9533771182992,1.3431974397954487</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW4 Tanah Merah</name>
     <Point>
-      <coordinates>103.946348600798,1.32718729074675</coordinates>
+      <coordinates>103.94654794367561,1.3272540817777472</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW5 Bedok</name>
     <Point>
-      <coordinates>103.929984495066,1.32397996868158</coordinates>
+      <coordinates>103.93017251986417,1.3240113189246734</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW6 Kembangan</name>
     <Point>
-      <coordinates>103.912947930851,1.3210381335934</coordinates>
+      <coordinates>103.91294742959236,1.3210380145636937</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW7 Eunos</name>
     <Point>
-      <coordinates>103.903225807255,1.31978354916088</coordinates>
+      <coordinates>103.90325558730702,1.3197611173392314</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW8 Paya Lebar</name>
     <Point>
-      <coordinates>103.893060771576,1.31811149224527</coordinates>
+      <coordinates>103.89267068880001,1.3177432141186658</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW9 Aljunied</name>
     <Point>
-      <coordinates>103.882906044385,1.3164326118157</coordinates>
+      <coordinates>103.88290452869101,1.316433494695341</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW10 Kallang</name>
     <Point>
-      <coordinates>103.871386541754,1.31148890998818</coordinates>
+      <coordinates>103.87131236090362,1.3114123456496802</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW11 Lavender</name>
     <Point>
-      <coordinates>103.862767633888,1.30737781747063</coordinates>
+      <coordinates>103.86283780154915,1.3073717305725638</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW12 Bugis</name>
     <Point>
-      <coordinates>103.855706730933,1.30046508509717</coordinates>
+      <coordinates>103.85626865113218,1.2999975124848677</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW13 City Hall</name>
     <Point>
-      <coordinates>103.852585580366,1.29293672227779</coordinates>
+      <coordinates>103.85260777099556,1.292935458131331</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW14 Raffles Place</name>
     <Point>
-      <coordinates>103.851461712342,1.28412561043658</coordinates>
+      <coordinates>103.85145931539898,1.284067270989306</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW15 Tanjong Pagar</name>
     <Point>
-      <coordinates>103.845725186759,1.27656131737246</coordinates>
+      <coordinates>103.84601318730437,1.2766311508227064</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW16 Outram Park</name>
     <Point>
-      <coordinates>103.839130979249,1.28140504772213</coordinates>
+      <coordinates>103.83925001411495,1.2808389346699285</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW17 Tiong Bahru</name>
     <Point>
-      <coordinates>103.827445112419,1.28610253615775</coordinates>
+      <coordinates>103.82703434044352,1.286219740332733</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW18 Redhill</name>
     <Point>
-      <coordinates>103.81674097205,1.28963453412887</coordinates>
+      <coordinates>103.81677319412825,1.2896302709624783</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW19 Queenstown</name>
     <Point>
-      <coordinates>103.806077155982,1.29455085184931</coordinates>
+      <coordinates>103.80604523672386,1.294611331801812</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW20 Commonwealth</name>
     <Point>
-      <coordinates>103.798228523336,1.30250199924325</coordinates>
+      <coordinates>103.79829071929134,1.3024476459449514</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW21 Buona Vista</name>
     <Point>
-      <coordinates>103.790253514502,1.3072237082044</coordinates>
+      <coordinates>103.79028747130236,1.3068710122280809</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW22 Dover</name>
     <Point>
-      <coordinates>103.778637841909,1.31140529320963</coordinates>
+      <coordinates>103.77864915499143,1.3113946900971238</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW23 Clementi</name>
     <Point>
-      <coordinates>103.765191452888,1.31511625277378</coordinates>
+      <coordinates>103.76560394593672,1.3159314667201611</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW24 Jurong East</name>
     <Point>
-      <coordinates>103.742286332403,1.33315281585758</coordinates>
+      <coordinates>103.74210748182318,1.333050284679782</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW25 Chinese Garden</name>
     <Point>
-      <coordinates>103.732596738363,1.34235282081401</coordinates>
+      <coordinates>103.73281439405886,1.3421449762957498</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW26 Lakeside</name>
     <Point>
-      <coordinates>103.720949087456,1.34425911493819</coordinates>
+      <coordinates>103.72096682017924,1.3442638155664695</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW27 Boon Lay</name>
     <Point>
-      <coordinates>103.706064622772,1.33860405469845</coordinates>
+      <coordinates>103.70531990031637,1.3383562390412558</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW28 Pioneer</name>
     <Point>
-      <coordinates>103.697321608474,1.33758701106708</coordinates>
+      <coordinates>103.69741522528173,1.3375950972528237</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW29 Joo Koon</name>
     <Point>
-      <coordinates>103.678374996165,1.3277170408447</coordinates>
+      <coordinates>103.67828617916503,1.327744942268679</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW30 Gul Circle</name>
     <Point>
-      <coordinates>103.660530461345,1.31947090075208</coordinates>
+      <coordinates>103.66073679407967,1.3197032592130764</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW31 Tuas Crescent</name>
     <Point>
-      <coordinates>103.649078235627,1.32102695598684</coordinates>
+      <coordinates>103.64896525737075,1.3211383595667519</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW32 Tuas West Road</name>
     <Point>
-      <coordinates>103.639616648771,1.32998504653102</coordinates>
+      <coordinates>103.63957309721583,1.3300371270042406</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>EW33 Tuas Link</name>
     <Point>
-      <coordinates>103.636991425128,1.34088242451105</coordinates>
+      <coordinates>103.63675132373392,1.340270406495732</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JE1 Tengah Plantation</name>
     <Point>
-      <coordinates>103.73345298368662,1.357332135264109</coordinates>
+      <coordinates>103.73345298368655,1.3573321352640935</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JE2 Tengah Park</name>
     <Point>
-      <coordinates>103.73679091059547,1.3523297593715915</coordinates>
+      <coordinates>103.73678393001224,1.352326157460195</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JE3 Bukit Batok West</name>
     <Point>
-      <coordinates>103.73950196752166,1.345673951039227</coordinates>
+      <coordinates>103.7395019676103,1.3456739510149516</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JE4 Toh Guan</name>
     <Point>
-      <coordinates>103.74249481213499,1.339909056890633</coordinates>
+      <coordinates>103.742494812135,1.3399090568905165</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JE5 Jurong East</name>
     <Point>
-      <coordinates>103.74190976562035,1.3329658528821977</coordinates>
+      <coordinates>103.74210748182318,1.333050284679782</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JE6 Jurong Town Hall</name>
     <Point>
-      <coordinates>103.74521205260874,1.3263789776471084</coordinates>
+      <coordinates>103.74521205263636,1.3263789775445054</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JE7 Pandan Reservoir</name>
     <Point>
-      <coordinates>103.74480076519164,1.3204582231533781</coordinates>
+      <coordinates>103.7448007651914,1.320458223153171</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JS1 Choa Chu Kang</name>
     <Point>
-      <coordinates>103.74411408003186,1.3853823505075127</coordinates>
+      <coordinates>103.74434408893133,1.3851254680366532</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JS2 Choa Chu Kang West</name>
     <Point>
-      <coordinates>103.7400134290408,1.379221009084314</coordinates>
+      <coordinates>103.74001342904067,1.3792210090842536</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JS3 Tengah</name>
     <Point>
-      <coordinates>103.73008354165452,1.3663843951975398</coordinates>
+      <coordinates>103.73001067862933,1.3663534647032467</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JS4 Hong Kah</name>
     <Point>
-      <coordinates>103.726153007988,1.35812200829127</coordinates>
+      <coordinates>103.72610120695401,1.3580131149925936</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JS5 Corporation</name>
     <Point>
-      <coordinates>103.7138129954562,1.352969534325842</coordinates>
+      <coordinates>103.71381299547156,1.3529695343362098</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JS6 Jurong West</name>
     <Point>
-      <coordinates>103.70825683283665,1.3491851409286637</coordinates>
+      <coordinates>103.70825683283655,1.3491851409286144</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JS7 Bahar Junction</name>
     <Point>
-      <coordinates>103.70303410199647,1.3461917322908434</coordinates>
+      <coordinates>103.7030341020502,1.3461917323028454</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JS8 Boon Lay</name>
     <Point>
-      <coordinates>103.70457367154302,1.3381080254056505</coordinates>
+      <coordinates>103.70531990031637,1.3383562390412558</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JS9 Enterprise</name>
     <Point>
-      <coordinates>103.7085797577933,1.3327316696654732</coordinates>
+      <coordinates>103.70857975778225,1.3327316696239189</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JS10 Tukang</name>
     <Point>
-      <coordinates>103.7092452147142,1.3254102896356554</coordinates>
+      <coordinates>103.70924521471403,1.3254102896356106</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JS11 Jurong Hill</name>
     <Point>
-      <coordinates>103.71013468205798,1.3186246498006016</coordinates>
+      <coordinates>103.71013468207298,1.3186246498744871</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JS12 Jurong Pier</name>
     <Point>
-      <coordinates>103.71039877677782,1.3131311689209213</coordinates>
+      <coordinates>103.71039877678588,1.3131311689118546</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JW1 Gek Poh</name>
     <Point>
-      <coordinates>103.69811603259494,1.3483461900930545</coordinates>
+      <coordinates>103.6981160327606,1.3483461900761775</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JW2 Tawas</name>
     <Point>
-      <coordinates>103.69188973657315,1.3506581129055937</coordinates>
+      <coordinates>103.69188973659975,1.350658112886788</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JW3 Nanyang Gateway</name>
     <Point>
-      <coordinates>103.6866068163041,1.3536887485621956</coordinates>
+      <coordinates>103.68660681628533,1.353688748523998</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JW4 Nanyang Crescent</name>
     <Point>
-      <coordinates>103.68080440180675,1.3484063188525033</coordinates>
+      <coordinates>103.68080361982648,1.348406058361224</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>JW5 Peng Kang Hill</name>
     <Point>
-      <coordinates>103.67856429561844,1.3432055533670473</coordinates>
+      <coordinates>103.67855554554436,1.3432230839217252</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NE1 HarbourFront</name>
     <Point>
-      <coordinates>103.821530157095,1.26538938374901</coordinates>
+      <coordinates>103.82150740808491,1.265310691626473</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NE3 Outram Park</name>
     <Point>
-      <coordinates>103.839439862425,1.27972059383553</coordinates>
+      <coordinates>103.83925001411495,1.2808389346699285</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NE4 Chinatown</name>
     <Point>
-      <coordinates>103.843426681863,1.28435959278583</coordinates>
+      <coordinates>103.84400359690841,1.2844979891931358</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NE5 Clarke Quay</name>
     <Point>
-      <coordinates>103.846555209694,1.28838602407588</coordinates>
+      <coordinates>103.84664481271456,1.2886057308902332</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NE6 Dhoby Ghaut</name>
     <Point>
-      <coordinates>103.845488542541,1.29970458121203</coordinates>
+      <coordinates>103.8458117190266,1.2991489615370466</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NE7 Little India</name>
     <Point>
-      <coordinates>103.849647059738,1.30680019696174</coordinates>
+      <coordinates>103.84927785171979,1.3071641923108004</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NE8 Farrer Park</name>
     <Point>
-      <coordinates>103.853477716509,1.31190557325774</coordinates>
+      <coordinates>103.85427015841306,1.3124482283293788</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NE9 Boon Keng</name>
     <Point>
-      <coordinates>103.861569454156,1.31933570922514</coordinates>
+      <coordinates>103.86168108544172,1.3194470900320243</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NE10 Potong Pasir</name>
     <Point>
-      <coordinates>103.869055656782,1.33137949021368</coordinates>
+      <coordinates>103.86906995828527,1.3313873892306496</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NE11 Woodleigh</name>
     <Point>
-      <coordinates>103.87081830915,1.33919004519388</coordinates>
+      <coordinates>103.87079168986061,1.3391607697389176</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NE12 Serangoon</name>
     <Point>
-      <coordinates>103.873574849884,1.34970788089564</coordinates>
+      <coordinates>103.87304885351502,1.3500741477714449</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NE13 Kovan</name>
     <Point>
-      <coordinates>103.885064856353,1.36017917065237</coordinates>
+      <coordinates>103.88509111597133,1.3601798707280965</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NE14 Hougang</name>
     <Point>
-      <coordinates>103.892380513029,1.37129226620797</coordinates>
+      <coordinates>103.8917486395222,1.37121513084043</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NE15 Buangkok</name>
     <Point>
-      <coordinates>103.893122569706,1.38287001971672</coordinates>
+      <coordinates>103.89309246881164,1.3827715837771788</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NE16 Sengkang</name>
     <Point>
-      <coordinates>103.895484694279,1.39169462601522</coordinates>
+      <coordinates>103.8954261698915,1.3915510620007674</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NE17 Punggol</name>
     <Point>
-      <coordinates>103.902072622229,1.40454653668991</coordinates>
+      <coordinates>103.90240395660469,1.405165442795008</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NE18 Punggol Coast</name>
     <Point>
-      <coordinates>103.910166388177,1.41492733388605</coordinates>
+      <coordinates>103.91021424530948,1.4149388181616607</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS1 Jurong East</name>
     <Point>
-      <coordinates>103.742286332403,1.33315281585758</coordinates>
+      <coordinates>103.74210748182318,1.333050284679782</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS2 Bukit Batok</name>
     <Point>
-      <coordinates>103.749566478309,1.34903331201636</coordinates>
+      <coordinates>103.74954069134954,1.3489967490688684</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS3 Bukit Gombak</name>
     <Point>
-      <coordinates>103.751790910733,1.35861159094192</coordinates>
+      <coordinates>103.75191010899835,1.3586719216098169</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS3A Brickland</name>
     <Point>
-      <coordinates>103.746989,1.370728</coordinates>
+      <coordinates>103.749676524253,1.3684011947216186</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS4 Choa Chu Kang</name>
     <Point>
-      <coordinates>103.744370779756,1.38536316540225</coordinates>
+      <coordinates>103.74434408893133,1.3851254680366532</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS5 Yew Tee</name>
     <Point>
-      <coordinates>103.747405150236,1.39753506936297</coordinates>
+      <coordinates>103.74740209303708,1.3975496334690805</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS6 Sungei Kadut</name>
     <Point>
-      <coordinates>103.748749,1.413404</coordinates>
+      <coordinates>103.748924012435,1.4133910875005729</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS7 Kranji</name>
     <Point>
-      <coordinates>103.762137459497,1.42508698073648</coordinates>
+      <coordinates>103.76205895494209,1.4251892314695478</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS8 Marsiling</name>
     <Point>
-      <coordinates>103.774074641403,1.43252114855026</coordinates>
+      <coordinates>103.77404281322656,1.4325784529165027</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS9 Woodlands</name>
     <Point>
-      <coordinates>103.786066799253,1.43681962961519</coordinates>
+      <coordinates>103.78705527389394,1.436448687872568</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS10 Admiralty</name>
     <Point>
-      <coordinates>103.800990519771,1.44058856161847</coordinates>
+      <coordinates>103.80097510574198,1.4405887099902668</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS11 Sembawang</name>
     <Point>
-      <coordinates>103.820046140211,1.44905082158502</coordinates>
+      <coordinates>103.82018789692005,1.4490674618976647</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS12 Canberra</name>
     <Point>
-      <coordinates>103.829702590959,1.44307664075699</coordinates>
+      <coordinates>103.82953968335984,1.4432345901096362</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS13 Yishun</name>
     <Point>
-      <coordinates>103.835005047246,1.42944308477331</coordinates>
+      <coordinates>103.83497264860424,1.4295722438817275</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS14 Khatib</name>
     <Point>
-      <coordinates>103.832979908243,1.41738337009565</coordinates>
+      <coordinates>103.83303809149398,1.4175753810979856</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS15 Yio Chu Kang</name>
     <Point>
-      <coordinates>103.84494727118,1.38175587099132</coordinates>
+      <coordinates>103.84480693849162,1.3817534968318599</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS16 Ang Mo Kio</name>
     <Point>
-      <coordinates>103.84955809232,1.36993284962262</coordinates>
+      <coordinates>103.85025142310502,1.3696725253555933</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS17 Bishan</name>
     <Point>
-      <coordinates>103.848143964542,1.35083898784737</coordinates>
+      <coordinates>103.84868243429734,1.3510484822751936</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS18 Braddell</name>
     <Point>
-      <coordinates>103.846799083148,1.3404690010277</coordinates>
+      <coordinates>103.84679533583812,1.3403574630140758</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS19 Toa Payoh</name>
     <Point>
-      <coordinates>103.847502198048,1.33262928096888</coordinates>
+      <coordinates>103.8474452071861,1.332667992247838</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS20 Novena</name>
     <Point>
-      <coordinates>103.843825618748,1.32044079120154</coordinates>
+      <coordinates>103.8438181306018,1.3204300814932564</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS21 Newton</name>
     <Point>
-      <coordinates>103.837984594021,1.3123189224097</coordinates>
+      <coordinates>103.83803477211077,1.3129117966563681</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS22 Orchard</name>
     <Point>
-      <coordinates>103.832245244375,1.30398013681715</coordinates>
+      <coordinates>103.83187416773077,1.303444646304231</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS23 Somerset</name>
     <Point>
-      <coordinates>103.839085753124,1.30026416739006</coordinates>
+      <coordinates>103.83907516220226,1.3002600545835286</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS24 Dhoby Ghaut</name>
     <Point>
-      <coordinates>103.846113677951,1.29870132536119</coordinates>
+      <coordinates>103.8458117190266,1.2991489615370466</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS25 City Hall</name>
     <Point>
-      <coordinates>103.852585580366,1.29293672227779</coordinates>
+      <coordinates>103.85260777099556,1.292935458131331</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS26 Raffles Place</name>
     <Point>
-      <coordinates>103.851461712342,1.28412561043658</coordinates>
+      <coordinates>103.85145931539898,1.284067270989306</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS27 Marina Bay</name>
     <Point>
-      <coordinates>103.854595522263,1.276410298755</coordinates>
+      <coordinates>103.85498166544687,1.2758094294533002</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>NS28 Marina South Pier</name>
     <Point>
-      <coordinates>103.862447515736,1.27102703612006</coordinates>
+      <coordinates>103.86291089300765,1.2713773812015394</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>PE1 Cove</name>
     <Point>
-      <coordinates>103.905961941214,1.39928198837342</coordinates>
+      <coordinates>103.90591744030328,1.3993617068685738</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>PE2 Meridian</name>
     <Point>
-      <coordinates>103.908950224489,1.3969120498774</coordinates>
+      <coordinates>103.90899093841303,1.3968523391605283</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>PE3 Coral Edge</name>
     <Point>
-      <coordinates>103.912580845515,1.39390922863313</coordinates>
+      <coordinates>103.91256353486817,1.3939263504344506</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>PE4 Riviera</name>
     <Point>
-      <coordinates>103.916169381157,1.39451978540251</coordinates>
+      <coordinates>103.91593242521265,1.3953581720237742</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>PE5 Kadaloor</name>
     <Point>
-      <coordinates>103.916574974234,1.39950910636258</coordinates>
+      <coordinates>103.91639497890144,1.399638509666885</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>PE6 Oasis</name>
     <Point>
-      <coordinates>103.912727352412,1.40228667971123</coordinates>
+      <coordinates>103.9126318514526,1.4023508798916595</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>PE7 Damai</name>
     <Point>
-      <coordinates>103.908603542566,1.40523483636957</coordinates>
+      <coordinates>103.90850357756092,1.4053160221202112</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>PTC Punggol</name>
     <Point>
-      <coordinates>103.902411911915,1.40519470149606</coordinates>
+      <coordinates>103.90240395660469,1.405165442795008</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>PW1 Sam Kee</name>
     <Point>
-      <coordinates>103.904831550608,1.40961268528804</coordinates>
+      <coordinates>103.90483155144202,1.4096126869238204</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>PW2 Teck Lee</name>
     <Point>
-      <coordinates>103.906577622768,1.4127708937463</coordinates>
+      <coordinates>103.90662621184427,1.4128738705379404</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>PW3 Punggol Point</name>
     <Point>
-      <coordinates>103.906650789313,1.41684852031206</coordinates>
+      <coordinates>103.90653551158488,1.4169108526509417</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>PW4 Samudera</name>
     <Point>
-      <coordinates>103.902156317163,1.41590172160383</coordinates>
+      <coordinates>103.90208724260933,1.4158186977409486</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>PW5 Nibong</name>
     <Point>
-      <coordinates>103.900339452055,1.41185447744238</coordinates>
+      <coordinates>103.90029894847919,1.4117555862084634</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>PW6 Sumang</name>
     <Point>
-      <coordinates>103.898558450395,1.40845241943079</coordinates>
+      <coordinates>103.89851028670412,1.408353296668723</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>PW7 Soo Teck</name>
     <Point>
-      <coordinates>103.897290522033,1.40532331860455</coordinates>
+      <coordinates>103.89723440885503,1.4052096476198659</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>SE1 Compassvale</name>
     <Point>
-      <coordinates>103.900492450944,1.39449304450373</coordinates>
+      <coordinates>103.90055527782525,1.3944787834510037</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>SE2 Rumbia</name>
     <Point>
-      <coordinates>103.90597359341,1.39146849534132</coordinates>
+      <coordinates>103.90589048292587,1.3915644449909599</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>SE3 Bakau</name>
     <Point>
-      <coordinates>103.905415300171,1.38799431054768</coordinates>
+      <coordinates>103.90552634690918,1.3881050159515416</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>SE4 Kangkar</name>
     <Point>
-      <coordinates>103.90222537044,1.38395911688913</coordinates>
+      <coordinates>103.90225755089236,1.3840307673031464</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>SE5 Ranggung</name>
     <Point>
-      <coordinates>103.897194667804,1.38423355918277</coordinates>
+      <coordinates>103.89749260343731,1.3839214795181578</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>STC Sengkang</name>
     <Point>
-      <coordinates>103.895442583336,1.39160936379906</coordinates>
+      <coordinates>103.8954261698915,1.3915510620007674</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>SW1 Cheng Lim</name>
     <Point>
-      <coordinates>103.893797181731,1.39627763344324</coordinates>
+      <coordinates>103.89390790780313,1.3962489160522749</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>SW2 Farmway</name>
     <Point>
-      <coordinates>103.889304824196,1.39717019591821</coordinates>
+      <coordinates>103.88938286120671,1.3971619025464026</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>SW3 Kupang</name>
     <Point>
-      <coordinates>103.881256222255,1.39821283031379</coordinates>
+      <coordinates>103.88137428305878,1.3981975780716305</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>SW4 Thanggam</name>
     <Point>
-      <coordinates>103.875635154729,1.39731815581938</coordinates>
+      <coordinates>103.87565537171609,1.397436993718034</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>SW5 Fernvale</name>
     <Point>
-      <coordinates>103.87630862552,1.39188589234766</coordinates>
+      <coordinates>103.87627965694506,1.391944192658048</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>SW6 Layar</name>
     <Point>
-      <coordinates>103.880029600546,1.39207983659997</coordinates>
+      <coordinates>103.88015787551086,1.3920928721400994</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>SW7 Tongkang</name>
     <Point>
-      <coordinates>103.885844150116,1.38934794658941</coordinates>
+      <coordinates>103.88593735859335,1.3893387809146653</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>SW8 Renjong</name>
     <Point>
-      <coordinates>103.89062131608,1.38670058991904</coordinates>
+      <coordinates>103.89042878850033,1.3867475129068825</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE1 Woodlands North</name>
     <Point>
-      <coordinates>103.785692682441,1.44829245259621</coordinates>
+      <coordinates>103.78596634244951,1.448392319968309</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE2 Woodlands</name>
     <Point>
-      <coordinates>103.787938777173,1.43605761708128</coordinates>
+      <coordinates>103.78705527389394,1.436448687872568</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE3 Woodlands South</name>
     <Point>
-      <coordinates>103.79326432221,1.42739605281442</coordinates>
+      <coordinates>103.79389794677142,1.4271151532156638</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE4 Springleaf</name>
     <Point>
-      <coordinates>103.817856949947,1.39758106126824</coordinates>
+      <coordinates>103.817921140757,1.398140978256675</coordinates>
     </Point>
   </Placemark>
   <Placemark>
@@ -1492,175 +1492,175 @@
   <Placemark>
     <name>TE5 Lentor</name>
     <Point>
-      <coordinates>103.835743809669,1.38550657972169</coordinates>
+      <coordinates>103.83633988787422,1.3849445080193759</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE6 Mayflower</name>
     <Point>
-      <coordinates>103.836567766945,1.37146318831015</coordinates>
+      <coordinates>103.83678152029555,1.3721081386146197</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE7 Bright Hill</name>
     <Point>
-      <coordinates>103.832893619992,1.36328318545185</coordinates>
+      <coordinates>103.83447249683356,1.3632817842745766</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE8 Upper Thomson</name>
     <Point>
-      <coordinates>103.832898468504,1.35441643365401</coordinates>
+      <coordinates>103.83285966545392,1.3544290003129547</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE9 Caldecott</name>
     <Point>
-      <coordinates>103.840161782075,1.33724561271722</coordinates>
+      <coordinates>103.83986538570805,1.3375387677791497</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE10 Mount Pleasant</name>
     <Point>
-      <coordinates>103.83518858199,1.32856455460666</coordinates>
+      <coordinates>103.83506011898334,1.3285471133429991</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE11 Stevens</name>
     <Point>
-      <coordinates>103.825566965234,1.31933437435349</coordinates>
+      <coordinates>103.82583341635527,1.3199006799927198</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE12 Napier</name>
     <Point>
-      <coordinates>103.818956796815,1.30678223364785</coordinates>
+      <coordinates>103.81908277343493,1.3066656512811499</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE13 Orchard Boulevard</name>
     <Point>
-      <coordinates>103.823868523249,1.30242224836722</coordinates>
+      <coordinates>103.8238476357721,1.3026661094847591</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE14 Orchard</name>
     <Point>
-      <coordinates>103.831375000068,1.30304426265194</coordinates>
+      <coordinates>103.83187416773077,1.303444646304231</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE15 Great World</name>
     <Point>
-      <coordinates>103.833720837731,1.29394816169384</coordinates>
+      <coordinates>103.83342645789939,1.2944678378851269</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE16 Havelock</name>
     <Point>
-      <coordinates>103.833585838226,1.28850523975311</coordinates>
+      <coordinates>103.83358978009632,1.2884419658075472</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE17 Outram Park</name>
     <Point>
-      <coordinates>103.839137557749,1.28132964411173</coordinates>
+      <coordinates>103.83925001411495,1.2808389346699285</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE18 Maxwell</name>
     <Point>
-      <coordinates>103.843883670633,1.28053329842878</coordinates>
+      <coordinates>103.84392436857507,1.2805964098154925</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE19 Shenton Way</name>
     <Point>
-      <coordinates>103.850367596067,1.2777168283425</coordinates>
+      <coordinates>103.85067510451763,1.2775905171046742</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE20 Marina Bay</name>
     <Point>
-      <coordinates>103.855309167928,1.27474173226842</coordinates>
+      <coordinates>103.85498166544687,1.2758094294533002</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE21 Marina South</name>
     <Point>
-      <coordinates>103.863574321728,1.27455475919137</coordinates>
+      <coordinates>103.86311257442675,1.2742039630199826</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE22 Gardens by the Bay</name>
     <Point>
-      <coordinates>103.867454664421,1.27848725876303</coordinates>
+      <coordinates>103.8679548831892,1.2792004698563675</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE22A Founders' Memorial</name>
     <Point>
-      <coordinates>103.86893419080917,1.2909735602132157</coordinates>
+      <coordinates>103.86893419081727,1.2909735602127401</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE23 Tanjong Rhu</name>
     <Point>
-      <coordinates>103.873453254621,1.29726507940646</coordinates>
+      <coordinates>103.87345501889277,1.2972452874437077</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE24 Katong Park</name>
     <Point>
-      <coordinates>103.886178949925,1.29783147778951</coordinates>
+      <coordinates>103.88623636531406,1.2978010415628742</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE25 Tanjong Katong</name>
     <Point>
-      <coordinates>103.897368742078,1.29931925769899</coordinates>
+      <coordinates>103.89744885045332,1.2993705596361003</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE26 Marine Parade</name>
     <Point>
-      <coordinates>103.904983086812,1.30261163483383</coordinates>
+      <coordinates>103.90550807454038,1.302865993021082</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE27 Marine Terrace</name>
     <Point>
-      <coordinates>103.9151067005,1.30666510344814</coordinates>
+      <coordinates>103.91526558461837,1.306767424002779</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE28 Siglap</name>
     <Point>
-      <coordinates>103.930025826708,1.31000869432289</coordinates>
+      <coordinates>103.9299170480523,1.3098814892597002</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE29 Bayshore</name>
     <Point>
-      <coordinates>103.942309776767,1.31312248291264</coordinates>
+      <coordinates>103.94184163653021,1.3129364944627582</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE30 Bedok South</name>
     <Point>
-      <coordinates>103.94931120983,1.31668400658419</coordinates>
+      <coordinates>103.94923038001318,1.3166456856882618</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE31 Sungei Bedok</name>
     <Point>
-      <coordinates>103.957183823478,1.32040148729112</coordinates>
+      <coordinates>103.95720762079861,1.3203959599740995</coordinates>
     </Point>
   </Placemark>
   <Placemark>
     <name>TE32 Changi Terminal 5</name>
     <Point>
-      <coordinates>103.99013,1.32697</coordinates>
+      <coordinates>103.99196794225878,1.3243986092035498</coordinates>
     </Point>
   </Placemark>
 </Document>

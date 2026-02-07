@@ -14,6 +14,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 """
 
+from collections import defaultdict
+import pathlib
 import csv
 import io
 import re
@@ -21,6 +23,8 @@ import zipfile
 
 import requests
 import xlrd
+import pandas as pd
+import geopandas as gpd
 
 STATION_DATA_ENDPOINT = (
     "https://datamall.lta.gov.sg/content/dam/datamall/datasets/Geospatial/"
@@ -49,9 +53,11 @@ def to_station_code_components(station_code: str) -> tuple[str, int, str]:
         "",
     )  # Default values for invalid station code.
 
-    matcher = lambda station_code: re.match(
-        "([A-Z]+)([0-9]+)([A-Z]*)", station_code
-    )  # Ensure station code matches correct format.
+    def matcher(station_code):
+        return re.match(
+            "([A-Z]+)([0-9]+)([A-Z]*)", station_code
+        )  # Ensure station code matches correct format.
+
     station_code_components_match = matcher(station_code)
     if station_code_components_match is None:
         return line_code, station_number, station_number_suffix
@@ -61,14 +67,14 @@ def to_station_code_components(station_code: str) -> tuple[str, int, str]:
     return line_code, station_number, station_number_suffix
 
 
-def get_station_names(endpoint: str) -> list[tuple[str, str]]:
-    """Download train station codes and station names.
+def get_operational_station_names(endpoint: str) -> list[tuple[str, str]]:
+    """Download operational train station codes and station names.
 
     Args:
-        endpoint (str): HTTPS address of zipped XLS file containing train station codes and names.
+        endpoint (str): HTTPS address of zipped XLS file containing operational train station codes and names.
 
     Returns:
-        list[tuple[str, str]]: Train stations sorted by station code in ascending order.
+        list[tuple[str, str]]: Operational train stations sorted by station code in ascending order.
         For example, ("CC1", "Dhoby Ghaut"), ("NE6", "Dhoby Ghaut"), ("NS24", "Dhoby Ghaut").
     """
     with requests.Session() as session:
@@ -92,57 +98,6 @@ def get_station_names(endpoint: str) -> list[tuple[str, str]]:
     )
 
 
-def get_coordinates_onemap(location_name):
-    endpoint = "https://www.onemap.gov.sg/api/common/elastic/search"
-
-    res = requests.get(
-        endpoint,
-        params={
-            "searchVal": location_name,
-            "returnGeom": "Y",
-            "getAddrDetails": "Y",
-            "pageNum": "1",
-        },
-        timeout=15,
-    ).json()
-    results = res.get("results", None)
-    if isinstance(results, list):
-        for result in results:
-            if "LATITUDE" in result and "LONGITUDE" in result:
-                return float(result["LATITUDE"]), float(result["LONGITUDE"])
-    return None
-
-
-# def get_coordinates_openstreetmap(station_name):
-#     # Contains information from [OpenStreetMap®](https://www.openstreetmap.org/copyright) made available under the
-#     # [Open Data Commons Open Database License (ODbL)](https://opendatacommons.org/licenses/odbl/1-0)
-#     # by the [OpenStreetMap Foundation (OSMF)](https://osmfoundation.org).
-#     overpass_url = "http://overpass-api.de/api/interpreter"
-
-#     overpass_query = f"""
-#     [out:json];
-#     area["ISO3166-1"="SG"]->.searchArea;
-#     node[railway=station][name="{station_name}"](area.searchArea);
-#     out body;
-#     """
-
-#     response = requests.get(overpass_url, params={"data": overpass_query}, timeout=15)
-
-#     if response.status_code == 200:
-#         data = response.json()
-#     else:
-#         raise Exception(
-#             f"Error fetching data from Overpass API: {response.status_code}"
-#         )
-#     for element in data["elements"]:
-#         name = element.get("tags", {}).get("name", "Unnamed Station")
-#         lat = element["lat"]
-#         lon = element["lon"]
-#         if station_name.lower() in name.lower() and lat and lon:
-#             return float(lat), float(lon)
-#     return None
-
-
 def create_kml(coordinates_file: str):
     points = []
     with open(coordinates_file, "r") as f:
@@ -157,12 +112,12 @@ def create_kml(coordinates_file: str):
         f.write("<Document>\n")
 
         for name, lat, lon in points:
-            f.write(f"  <Placemark>\n")
+            f.write("  <Placemark>\n")
             f.write(f"    <name>{name}</name>\n")
-            f.write(f"    <Point>\n")
+            f.write("    <Point>\n")
             f.write(f"      <coordinates>{lon},{lat}</coordinates>\n")
-            f.write(f"    </Point>\n")
-            f.write(f"  </Placemark>\n")
+            f.write("    </Point>\n")
+            f.write("  </Placemark>\n")
 
         f.write("</Document>\n")
         f.write("</kml>\n")
@@ -172,67 +127,139 @@ def create_kml(coordinates_file: str):
 
 if __name__ == "__main__":
     # Get list of operational stations from LTA.
-    stations = {
+    operational_stations = {
         station: {
             "lat": None,
             "lon": None,
             "source": None,
             "comment": None,
         }
-        for station in get_station_names(STATION_DATA_ENDPOINT)
+        for station in get_operational_station_names(STATION_DATA_ENDPOINT)
     }
 
-    # Get all operational stations coordinates from OneMap.
-    for (station_code, station_name), station_details in stations.items():
-        coordinates = None
-        location_name = (
-            f"{station_name.upper()} LRT STATION ({station_code})"
-            if any(
-                station_code.startswith(line_code)
-                for line_code in ("BP", "PE", "PT", "PW", "SE", "ST", "SW")
+    # Get all operational stations coordinates from Master Plan
+    gdf = gpd.read_file(
+        pathlib.Path(__file__).parent
+        / "data"
+        / "MasterPlan2025RailStationLayer.geojson"
+    ).to_crs(epsg=4326)
+    gdf.crs = None  # Suppress warnings.
+    gdf["centroid"] = gdf.geometry.centroid
+    gdf["lat"] = gdf["centroid"].y
+    gdf["lon"] = gdf["centroid"].x
+    gdf["NAME"] = gdf["NAME"].str.upper().str.replace("INTERCHANGE", "").str.strip()
+    gdf["NAME"] = gdf["NAME"].replace(
+        {
+            "RIVER VALLEY": "FORT CANNING",
+            "JELEPANG": "JELAPANG",
+            "GARDEN BY THE BAY": "GARDENS BY THE BAY",
+            "ONE NORTH": "ONE-NORTH",
+            "DE1": "YEW TEE VILLAGE",
+            "DE2": "SUNGEI KADUT",
+            "NS6": "SUNGEI KADUT",
+            "SENGKANG CENTRAL": "SENGKANG",
+        }
+    )  # Fix known mismatches.
+    gdf = gdf[
+        ~gdf["NAME"].isin(["IMBIAH", "RESORTS WORLD", "BEACH"])
+    ]  # Exclude Sentosa Express
+
+    gdf = gdf[["NAME", "lat", "lon"]]
+
+    gdf_records_dict = gdf.to_dict(orient="records")
+
+    # TODO: Manually define separate coordinates for stations within the same interchange.
+    # For now, average the coordinates.
+    masterplan_stations = defaultdict(list)
+    for record in gdf_records_dict:
+        masterplan_stations[record["NAME"]].append((record["lat"], record["lon"]))
+    # Handle stations with multiple coordinates (interchanges)
+    for station_name, coordinates_list in masterplan_stations.items():
+        if len(coordinates_list) == 1:
+            masterplan_stations[station_name] = coordinates_list[0]
+        else:
+            # Average the coordinates
+            avg_lat = sum(coord[0] for coord in coordinates_list) / len(
+                coordinates_list
             )
-            else f"{station_name.upper()} MRT STATION ({station_code})"
+            avg_lon = sum(coord[1] for coord in coordinates_list) / len(
+                coordinates_list
+            )
+            masterplan_stations[station_name] = (avg_lat, avg_lon)
+
+    operational_stations_with_no_coordinates = []
+
+    for operational_station in operational_stations:
+        station_code, station_name = operational_station
+        station_name = station_name.upper().strip()
+        _ = station_code
+        if station_name in masterplan_stations:
+            lat, lon = masterplan_stations[station_name]
+            operational_stations[operational_station]["lat"] = float(lat)
+            operational_stations[operational_station]["lon"] = float(lon)
+            operational_stations[operational_station]["source"] = "ura"
+        else:
+            print(
+                f"Warning: Missing coordinates for operational station {station_code} {station_name}"
+            )
+            operational_stations_with_no_coordinates.append(operational_station)
+
+    if operational_stations_with_no_coordinates:
+        raise ValueError(
+            f"Missing coordinates for opened stations: {operational_stations_with_no_coordinates}"
         )
-        try:
-            coordinates = get_coordinates_onemap(location_name)
-            if coordinates:
-                stations[(station_code, station_name)]["lat"] = coordinates[0]
-                stations[(station_code, station_name)]["lon"] = coordinates[1]
-                stations[(station_code, station_name)]["source"] = "onemap"
-        except Exception as e:
-            _ = e
 
-        # if coordinates:
-        #     continue
-        # location_name = station_name
-        # try:
-        #     coordinates = get_coordinates_openstreetmap(location_name)
-        #     if coordinates:
-        #         stations[(station_code, station_name)]["lat"] = coordinates[0]
-        #         stations[(station_code, station_name)]["lon"] = coordinates[1]
-        #         stations[(station_code, station_name)]["source"] = "openstreetmap"
-        # except Exception as e:
-        #     _ = e
+    unopened_masterplan_stations = {
+        station: coordinates
+        for station, coordinates in masterplan_stations.items()
+        if not any(station == s[1].upper().strip() for s in operational_stations.keys())
+    }
 
-    # Add future stations.
-    # future_stations.csv is a manually compiled dataset.
-    future_station_codes = set()
-    with open("future_stations.csv", "r") as f:
-        lines = f.readlines()
-        csv_reader = csv.reader(lines)
-        next(csv_reader)  # Skip header.
-        for row in csv_reader:
-            station_code, station_name = row[0], row[1]
-            if (station_code, station_name) not in stations:
-                future_station_codes.add(station_code)
-                stations[(station_code, station_name)] = {
-                    "lat": row[2],
-                    "lon": row[3],
-                    "source": row[4],
-                    "comment": row[5],
-                }
+    # Update future_stations.csv
+    # future_stations.csv is a manually compiled dataset
+    future_stations = pd.read_csv("future_stations.csv")
 
-    with open("all_stations.csv", "w") as f:
+    for idx, row in future_stations.iterrows():
+        station_name = row["station_name"].upper().strip()
+        if station_name in masterplan_stations:
+            lat, lon = masterplan_stations[station_name]
+            future_stations.at[idx, "lat"] = lat
+            future_stations.at[idx, "lon"] = lon
+            future_stations.at[idx, "source"] = "ura"
+            future_stations.at[idx, "comment"] = ""
+        else:
+            future_stations.at[idx, "comment"] = "missing_from_masterplan"
+
+    future_station_names = set(
+        future_stations["station_name"].apply(lambda x: x.upper().strip())
+    )
+    extra_masterplan_stations = sorted(
+        set(unopened_masterplan_stations.keys()).difference(future_station_names)
+    )
+
+    for station_name in extra_masterplan_stations:
+        lat, lon = unopened_masterplan_stations[station_name]
+        future_stations = pd.concat(
+            [
+                future_stations,
+                pd.DataFrame(
+                    {
+                        "station_code": "",
+                        "station_name": station_name.title(),
+                        "lat": lat,
+                        "lon": lon,
+                        "source": "ura",
+                        "comment": "in_masterplan_only",
+                    },
+                    index=[0],
+                ),
+            ],
+            ignore_index=True,
+        )
+
+    future_stations.to_csv("future_stations.csv", index=False)
+
+    with open("operational_stations.csv", "w") as f:
         csv_writer = csv.writer(f)
         csv_writer.writerow(
             ("station_code", "station_name", "lat", "lon", "source", "comment")
@@ -248,13 +275,26 @@ if __name__ == "__main__":
                     for (
                         station_code,
                         station_name,
-                    ), details in stations.items()
+                    ), details in operational_stations.items()
                 ),
                 key=lambda x: to_station_code_components(x[0]),
             ),
         )
 
-    with open("stations.csv", "w") as f:
+    operational_and_future_stations = {
+        **operational_stations,
+        **{
+            (row["station_code"], row["station_name"]): {
+                "lat": row["lat"],
+                "lon": row["lon"],
+                "source": row["source"],
+                "comment": row["comment"],
+            }
+            for idx, row in future_stations.iterrows()
+        },
+    }
+
+    with open("operational_and_future_stations.csv", "w") as f:
         csv_writer = csv.writer(f)
         csv_writer.writerow(
             ("station_code", "station_name", "lat", "lon", "source", "comment")
@@ -270,8 +310,7 @@ if __name__ == "__main__":
                     for (
                         station_code,
                         station_name,
-                    ), details in stations.items()
-                    if station_code not in future_station_codes
+                    ), details in operational_and_future_stations.items()
                 ),
                 key=lambda x: to_station_code_components(x[0]),
             ),
@@ -289,7 +328,7 @@ if __name__ == "__main__":
             ),
         )
 
-    create_kml("all_stations.csv")
+    create_kml("operational_and_future_stations.csv")
     create_kml("future_stations.csv")
-    create_kml("stations.csv")
+    create_kml("operational_stations.csv")
     create_kml("defunct_stations.csv")
